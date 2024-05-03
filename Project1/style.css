@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+.container{
+    width: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    margin-inline: auto;
+    margin-block: 20px;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 4px 4px 4px #ccc;
+}
+p{
+    font-size: 0.7rem;
+    color: #888;
+}
+h2{
+    font-weight: normal;
+    color: #888;
+
+}
+h3{
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+    
+}
+.left{
+    width: 30%;
+    /* border: 2px solid blue; */
+
+}
+.img-box{
+    position: relative;
+}
+.img-box img{
+    width: 100%;
+
+}
+.img-box .user-name{
+    position: absolute;
+    bottom: 1px;
+    color: #1b040496;
+    font-weight: bold;
+    margin: 10px;
+}
+/* Designing the ul and li elements i.e contact-info */
+ ul{
+    list-style: none;
+    margin-block: 10px;
+}
+
+hr{
+    border: 0.5px solid #eee;
+}
+
+ul>li{
+    margin-top: 8px;
+    
+}
+.icon-text{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+i{
+    color: teal;
+  
+  
+}
+
+/* Skill Section */
+.skills{
+    margin-block: 10px;
+}
+.progressbar{
+    /* border: 2px solid blue; */
+    background-color: grey;
+    border-radius: 20px;
+    margin-block: 8px;
+    padding-block: 2px;
+
+    
+}
+.progress{
+    /* border: 2px solid  green; */
+    color: white;
+    text-align: center;
+    background-color: teal;
+    border-radius: 20px;
+    font-size: 0.6rem;
+}
+/* H3 Element */
+.Skill{
+    display: flex;
+    color: black;
+    
+}
+.Skill p{
+    margin: 0px 10px;
+}
+
+/* Language section */
+
+.Languages{
+    margin-block: 10px;
+
+}
+
+
+
+/* LEFT SIDE CONTENTS */
+.left-desc{
+    margin-inline: 10px;
+}
+
+
+.right{
+    width: 70%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+
+}
+
+
+
+
+/*  Right column text-design */
+.text-design{
+    color: black;
+    font-weight: normal;
+    margin-block: 20px;
+}
+
+.card-content{
+    margin: 10px;
+    
+}
+
+article h3{
+    margin-block: 10px;
+}
+
+.badge {
+    background-color: teal;
+    color: white;
+    padding: 2px 4px;
+    font-size: 0.6rem;
+    border-radius: 4px;
+}
+.date {
+    color: teal;
+}
