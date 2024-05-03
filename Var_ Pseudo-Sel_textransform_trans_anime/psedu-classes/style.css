@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(100% - 80px);
+  height: 100vw;
+  margin-inline: auto;
+  border: 2px solid red;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/* psedu Classes */
+
+/*
+a {
+    --f-size: 4.5rem;
+    font-size: var(--f-size);
+  }
+  
+  a:hover {
+    color: aqua;
+  }
+  
+  a:visited {
+    color: pink;
+  }
+
+*/
+
+ul {
+  /* border: 2px solid red; */
+  width: min(100%, 800px);
+}
+
+li:first-child {
+  background-color: darkcyan;
+}
+
+li:last-child {
+  background-color: yellow;
+}
+
+/* an+b */
+
+li:nth-child(4) {
+  /* value of b */
+
+  /* background-color: red; */
+}
+
+li:nth-child(2n) {
+  /* by default the value of n is 1*/
+
+  /* background-color: blue; */
+}
+
+li:nth-child(2n + 1) {
+  /* background-color: pink; */
+}
+
+li:nth-child(3n) {
+  background-color: green;
+}
+
+/* PSEDU Elements */
+
+p::first-line{
+    font-size: 1.8rem;
+    color: aqua;
+}
+
+p::first-letter{
+    background-color: grey;
+    font-size: 6rem;
+    color: azure;
+}
+
